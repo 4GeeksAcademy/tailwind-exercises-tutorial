@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>07 Tailwind Buttons, Alert and Table</title>
+	</head>
+	<body>
+		<div class="w-full">
+			<div class="flex">
+				<div class="w-1/2 p-4">
+					<h5 class="text-lg font-semibold">It's hard to remember all the utility classes</h5>
+					<p class="mb-3">The rest seems easy because it was very well thought! Don't you agree?</p>
+					<button type="button" class="bg-green-600 text-white px-4 py-2 rounded mr-2">Yes</button>
+					<button type="button" class="bg-red-600 text-white px-4 py-2 rounded">No</button>
+				</div>
+				<div class="w-1/2 p-4">
+					<div class="bg-yellow-100 text-yellow-800 border border-yellow-300 rounded p-3 mb-4" role="alert">
+						If you don't agree some of this people may slap you in the face:
+					</div>
+					<table class="w-full border-collapse">
+						<thead>
+							<tr class="bg-gray-100">
+								<th class="text-left p-2 border-b">First</th>
+								<th class="text-left p-2 border-b">Last</th>
+								<th class="text-left p-2 border-b">Handle</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="odd:bg-white even:bg-gray-50">
+								<td class="p-2 border-b">Mark</td>
+								<td class="p-2 border-b">Otto</td>
+								<td class="p-2 border-b">@mdo</td>
+							</tr>
+							<tr class="odd:bg-white even:bg-gray-50">
+								<td class="p-2 border-b">Jacob</td>
+								<td class="p-2 border-b">Thornton</td>
+								<td class="p-2 border-b">@fat</td>
+							</tr>
+							<tr class="odd:bg-white even:bg-gray-50">
+								<td class="p-2 border-b" colspan="2">Larry the Bird</td>
+								<td class="p-2 border-b">@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
